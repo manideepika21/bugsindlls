@@ -27,7 +27,7 @@ RUN apt-get install -y \
 # Copy project
 WORKDIR /app
 COPY buggy_code.py .
-COPY test_issue_153276.py .
+COPY test_issue_153281.py .
 COPY requirements.txt .
 
 
